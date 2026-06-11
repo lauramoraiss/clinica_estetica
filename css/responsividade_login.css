@@ -1,0 +1,45 @@
+/* responsividade tablet */
+@media (max-width: 1280px){
+
+    .login_main{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .logo_login{
+        max-width: 220px;
+    }
+
+    .content_login{
+        width: 90%;
+        max-width: 650px;
+    }
+}
+
+/* responsividade mobile */
+@media (max-width: 767px){
+
+    .login_main{
+        padding: 15px;
+        gap: 20px;
+    }
+
+    .logo_login{
+        max-width: 180px;
+    }
+
+    .content_login{
+        width: 100%;
+        padding: 20px;
+        min-height: auto;
+    }
+
+    .title_login h2{
+        font-size: 32px;
+    }
+
+    .title_login span{
+        font-size: 14px;
+    }
+
+}
