@@ -1,0 +1,46 @@
+/* responsividade tablet */
+@media (max-width: 1280px){
+
+    .cadastro_main{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .logo_cadastro{
+        max-width: 220px;
+    }
+
+    .content_cadastro{
+        width: 90%;
+        max-width: 650px;
+    }
+}
+
+/* responsividade mobile */
+@media (max-width: 767px){
+
+
+    .cadastro_main{
+        padding: 15px;
+        gap: 20px;
+    }
+
+    .logo_cadastro{
+        max-width: 180px;
+    }
+
+    .content_cadastro{
+        width: 100%;
+        padding: 20px;
+        min-height: auto;
+    }
+
+    .title_cadastro h2{
+        font-size: 32px;
+    }
+
+    .title_cadastro span{
+        font-size: 14px;
+    }
+
+}
